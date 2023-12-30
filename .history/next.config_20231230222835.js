@@ -12,7 +12,7 @@ const nextConfig = {
     serverActions: true,
   },
   output: {
-    export: true,
+    
   }
 };
 
