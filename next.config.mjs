@@ -11,7 +11,6 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
-  output: 
 };
 
-module.exports = nextConfig;
+export default nextConfig;
