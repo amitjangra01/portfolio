@@ -11,6 +11,8 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export const sendEmail = async (formData: FormData) => {
   const senderEmail = formData.get("senderEmail");
   const message = formData.get("message");
+  console.log("senderEmail", senderEmail);
+  console.log("message", message);
 
   // simple server-side validation
   if (!validateString(senderEmail, 500)) {
@@ -41,6 +43,7 @@ export const sendEmail = async (formData: FormData) => {
     };
   }
 
+  console.log("data", data);
   return {
     data,
   };
