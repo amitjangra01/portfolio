@@ -111,10 +111,12 @@ export default function Intro() {
           href="https://github.com/amitjangra01"
           target="_blank"
         >
-          
+
           <FaGithubSquare />
         </a>
       </motion.div>
     </section>
   );
 }
+
+// demo push
