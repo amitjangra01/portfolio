@@ -119,4 +119,3 @@ export default function Intro() {
   );
 }
 
-// demo push
